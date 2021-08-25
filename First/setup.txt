@@ -1,0 +1,14 @@
+1: Download Dotnet core sdk
+   or C# Extension
+   or .Net Extension Pack Extension
+   or .Net Interactive Notebooks
+2: In project folder, run 
+   dotnet new console
+3: ----------dotnet run-----------
+or
+3: Download code runner
+4: Go to code runner extension settings
+5: Click on open settings json button
+6: write code-runner.executermap
+7: type:  "csharp": "cd $dir; dotnet run $fileName",
+
