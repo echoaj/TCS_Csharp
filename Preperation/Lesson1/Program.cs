@@ -1,10 +1,9 @@
 ﻿using System;
-// With oliver
-namespace First
+
+namespace Lesson1
 {
     class Program
     {
-
         static int adding(int a, int b, int c){
             int total = a+b+c;
             return total;
@@ -98,8 +97,6 @@ namespace First
             // Inches into Centimeters
             float centimeters = ruler(4.0f);
             System.Console.WriteLine(centimeters);
-
-
         }
     }
 }
