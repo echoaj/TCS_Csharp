@@ -4,6 +4,18 @@ namespace First
 {
     class Program
     {
+
+        static int adding(int a, int b, int c){
+            int total = a+b+c;
+            return total;
+        }
+
+        // funciton convert inches to centemeters
+        static float ruler(float inches){
+            float cent = inches * 2.54f;
+            return cent;
+        }
+
         static void Main(string[] args)
         {
             int num = 21;
@@ -64,6 +76,28 @@ namespace First
                 System.Console.Write(array[j] + ", ");
                 j++;
             }while(j < array.Length);
+
+            // For
+            System.Console.WriteLine();
+            for(int k = 0; k < 10; k++){
+                System.Console.WriteLine(k);
+            }   
+
+            // ForEach
+            foreach (var item in array)
+            {
+                System.Console.Write(item + " ,");
+            }
+
+            System.Console.WriteLine();
+
+
+            int sum = adding(5, 8, 9);
+            System.Console.WriteLine("My age is: " + sum);
+
+            // Inches into Centimeters
+            float centimeters = ruler(4.0f);
+            System.Console.WriteLine(centimeters);
 
 
         }
